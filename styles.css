@@ -9,7 +9,7 @@ body {
     background-color: #FAFAFA;
     font-family: "Montserrat", serif;
     font-optical-sizing: auto;
-    font-weight: 400;
+    font-weight: 500;
     font-style: normal;
     /* letter-spacing: .1rem; */
 }
@@ -52,16 +52,16 @@ body {
 
     span {
         font-size: 16px;
-        font-weight: 400;
     }
 }
 
-
 .main_skills {
+
+    margin-bottom: 20px;
 
     .skills_holder {
         display: flex;
-        justify-content: space-between;
+        /* justify-content: space-evenly; */
     }
 
     .skill {
@@ -82,6 +82,45 @@ body {
 
 
 
+.middle {
+    /* background-color: #efefef; */
+    display: flex;
+    justify-content: space-between;
+}
+
+.experience {
+
+    .location {
+        color: #7b7b7b
+    }
+
+    .experience_item {
+
+        margin-left: 5px;
+
+        h3 {
+            margin: 0 0 10px -4px;
+        }
+
+        h4 {
+            margin: 0;
+        }
+    }
+
+
+
+}
+
+.detalhes {
+    border: rgb(211, 211, 211) 3px solid;
+    border-radius: 6px;
+    padding: 0 10px;
+    box-sizing: border-box;
+
+    h2 {
+        /* margin: 0; */
+    }
+}
 
 
 
