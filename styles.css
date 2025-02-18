@@ -14,6 +14,25 @@ body {
     /* letter-spacing: .1rem; */
 }
 
+
+.text_big {
+    font-size: 18px;
+}
+
+.text_md {
+    font-size: 16px;
+}
+
+.text_sm {
+    font-size: 11px;
+}
+
+.left_indent {
+    margin-left: 10px;
+}
+
+
+
 * {
     box-sizing: border-box;
     -moz-box-sizing: border-box;
@@ -22,21 +41,23 @@ body {
 .page {
     width: 210mm;
     min-height: 297mm;
-    padding: 20mm;
+    padding: 10mm;
     margin: 10mm auto;
-    border: 1px #D3D3D3 solid;
+    /* border: 1px #D3D3D3 solid;
     border-radius: 5px;
-    background: white;
-    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1); */
+
+    background: rgb(255, 255, 255);
 }
 
 .subpage {
     /* padding: 1cm; */
-    /* border: 1px #f4f4f4 solid; */
+    border: 1px #f4f4f4 solid;
     border-radius: 5px;
+    background: rgb(255, 255, 255);
 
-    height: 257mm;
-    outline: 2cm #ffffff solid;
+    height: 277mm;
+    /* outline: 2cm #ffffff solid; */
 }
 
 
@@ -50,9 +71,6 @@ body {
         margin: 0;
     }
 
-    span {
-        font-size: 16px;
-    }
 }
 
 .main_skills {
@@ -61,16 +79,13 @@ body {
 
     .skills_holder {
         display: flex;
-        /* justify-content: space-evenly; */
+        justify-content: space-between;
     }
 
     .skill {
-        font-size: 12px;
 
         h3 {
             margin: 0;
-            font-size: 18px;
-
         }
 
         p {
@@ -96,7 +111,7 @@ body {
 
     .experience_item {
 
-        margin-left: 5px;
+        margin: 0 0 20px 5px;
 
         h3 {
             margin: 0 0 10px -4px;
@@ -105,6 +120,12 @@ body {
         h4 {
             margin: 0;
         }
+
+        .stack {
+            margin: 0;
+            font-weight: bold;
+        }
+
     }
 
 
