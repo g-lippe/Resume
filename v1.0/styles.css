@@ -31,9 +31,6 @@ body {
     margin-left: 10px;
 }
 
-.bd {
-    border: 1px solid #000;
-}
 
 
 h2 {
@@ -55,17 +52,13 @@ h2 {
     border-radius: 5px;
     box-shadow: 0 0 5px rgba(0, 0, 0, 0.1); */
 
-    background: rgb(255, 255, 255);
+    background: white;
 }
 
 .subpage {
-    /* padding: 1cm; */
-    border: 1px #f4f4f4 solid;
-    border-radius: 5px;
-    background: rgb(255, 255, 255);
-
+    /* border: 1px #f4f4f4 solid; */
+    /* border-radius: 5px; */
     height: 277mm;
-    /* outline: 2cm #ffffff solid; */
 }
 
 
@@ -90,11 +83,17 @@ h2 {
         justify-content: space-between;
     }
 
+    
+    h2 {
+        margin-bottom: 10px;
+    }
+
     .skill {
 
         h3 {
             margin: 0;
         }
+
 
         p {
             margin-top: 0;
@@ -176,10 +175,32 @@ h2 {
 .education_holder {
     display: grid;
     grid-template-columns: auto auto;
+    margin-bottom: -32px;
 }
 
 
+.qr_holder {
+    display: flex;
+    flex-direction: row-reverse;
+    gap: 10px;
 
+    label {
+        font-size: 8px;
+        text-align: center;
+    }
+
+    img {
+        height: 100px;
+        margin-bottom: -5px;
+        
+    }
+
+    .qrcode {
+        display: flex;
+        flex-direction: column;
+    }
+
+}
 
 
 
