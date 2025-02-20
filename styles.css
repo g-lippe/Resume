@@ -32,6 +32,10 @@ body {
 }
 
 
+h2 {
+    margin: 0;
+}
+
 
 * {
     box-sizing: border-box;
@@ -101,20 +105,19 @@ body {
     /* background-color: #efefef; */
     display: flex;
     justify-content: space-between;
+    margin-bottom: 10px;
 }
 
 .experience {
 
-    .location {
-        color: #7b7b7b
-    }
+
 
     .experience_item {
 
-        margin: 30px 0 0 5px;
+        margin: 20px 0 0 5px;
 
         h3 {
-            margin: 0 0 10px -4px;
+            margin: 0 0 0px -4px;
         }
 
         h4 {
@@ -137,6 +140,10 @@ body {
 
 }
 
+.location {
+    color: #7b7b7b
+}
+
 .detalhes {
   
 
@@ -145,16 +152,16 @@ body {
     .detalhes_holder{
         border: rgb(211, 211, 211) 3px solid;
         border-radius: 6px;
-        padding: 18px;
+        padding: 0 18px;
         box-sizing: border-box;
     }
 
     p {
-        margin: 0 0 14px 0;
+        margin: 0 0 18px 0;
     }
 
     h3 {
-        margin: 0 0 6px 0;
+        margin: 0 0 6zpx 0;
     }
 
 
@@ -162,7 +169,10 @@ body {
 
 
 
-
+.education_holder {
+    display: grid;
+    grid-template-columns: auto auto;
+}
 
 
 
