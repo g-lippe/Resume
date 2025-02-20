@@ -40,18 +40,19 @@ body {
     box-sizing: border-box;
     height: 100%;
 
-    .lower, header {
+    .lower,
+    header {
         display: flex;
     }
 
 
     .left {
-        width: 66%;
+        width: 70%;
     }
-    
+
     .right {
-        width: 33%;
-    }	
+        width: 30%;
+    }
 }
 
 .grey {
@@ -65,8 +66,10 @@ h1 {
 }
 
 p {
-    font-size: 12px;
+    font-size: 11px;
     line-height: 1.4;
+    /* margin-bottom: 0; */
+    
 }
 
 
@@ -75,10 +78,15 @@ p {
 }
 
 
+.period {
+    font-size: 12px;
+}
 
 
 
-
+.job_title {
+    margin: 0;
+}
 
 
 * {
