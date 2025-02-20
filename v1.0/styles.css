@@ -31,6 +31,10 @@ body {
     margin-left: 10px;
 }
 
+.bd {
+    border: 1px solid #000;
+}
+
 
 h2 {
     margin: 0;
