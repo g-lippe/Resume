@@ -33,7 +33,7 @@ body {
 
 
 .accent {
-    color: #0b40bb;
+    color: #173ab8;
 }
 
 .bd {
@@ -61,7 +61,8 @@ body {
 }
 
 .grey {
-    color: #7e7e7e;
+    color: #797979;
+    font-weight: 500;
 }
 
 
