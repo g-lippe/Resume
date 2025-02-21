@@ -9,7 +9,7 @@ body {
     background-color: #FAFAFA;
     font-family: "Montserrat", serif;
     font-optical-sizing: auto;
-    font-weight: 500;
+    font-weight: 400;
     font-style: normal;
     /* letter-spacing: .1rem; */
 }
@@ -29,6 +29,11 @@ body {
 
 .left_indent {
     margin-left: 10px;
+}
+
+
+.accent {
+    color: #0b40bb;
 }
 
 .bd {
@@ -62,11 +67,10 @@ body {
 
 h1 {
     margin: 0;
-    color: #0b40bb;
 }
 
 p {
-    font-size: 11px;
+    font-size: 12px;
     line-height: 1.4;
     /* margin-bottom: 0; */
     
