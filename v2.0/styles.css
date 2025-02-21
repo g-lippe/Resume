@@ -41,6 +41,7 @@ body {
     border-radius: 5px;
 }
 
+
 .main {
     box-sizing: border-box;
     height: 100%;
@@ -70,6 +71,10 @@ h1 {
     margin: 0;
 }
 
+h5 {
+    margin: 0;
+}
+
 p {
     font-size: 12px;
     line-height: 1.4;
@@ -88,6 +93,10 @@ p {
 }
 
 
+.job_place {
+    font-size: 14px;
+    font-weight: bold;
+}
 
 .job_title {
     margin: 0;
