@@ -79,7 +79,7 @@ p {
     font-size: 12px;
     line-height: 1.4;
     /* margin-bottom: 0; */
-    
+
 }
 
 
@@ -94,13 +94,41 @@ p {
 
 
 .job_place {
-    font-size: 14px;
+    /* font-size: 14px; */
     font-weight: bold;
 }
 
 .job_title {
     margin: 0;
+    font-weight: 500;
 }
+
+
+
+.qr_holder {
+    display: flex;
+    flex-direction: row-reverse;
+    gap: 10px;
+    margin-top: 140px;
+
+    label {
+        font-size: 8px;
+        text-align: center;
+    }
+
+    img {
+        height: 100px;
+        margin-bottom: -5px;
+
+    }
+
+    .qrcode {
+        display: flex;
+        flex-direction: column;
+    }
+
+}
+
 
 
 * {
