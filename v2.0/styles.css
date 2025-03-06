@@ -75,6 +75,10 @@ h5 {
     margin: 0;
 }
 
+h4 {
+    margin-bottom: 18px;
+}
+
 p {
     font-size: 12px;
     line-height: 1.4;
@@ -87,6 +91,9 @@ p {
     margin: 0 0 55px 0;
 }
 
+.job_block{
+    margin-bottom: 40px;
+}
 
 .period {
     font-size: 12px;
@@ -104,12 +111,17 @@ p {
 }
 
 
+.right_block {
+    margin-bottom: 40px;
+}
+
+
 
 .qr_holder {
     display: flex;
     flex-direction: row-reverse;
     gap: 10px;
-    margin-top: 140px;
+    margin-top: 88px;
 
     label {
         font-size: 8px;
