@@ -1,0 +1,196 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+
+body {
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    background-color: #FAFAFA;
+    font-family: "Montserrat", serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    /* letter-spacing: .1rem; */
+}
+
+
+.text_big {
+    font-size: 18px;
+}
+
+.text_md {
+    font-size: 16px;
+}
+
+.text_sm {
+    font-size: 11px;
+}
+
+.left_indent {
+    margin-left: 10px;
+}
+
+
+.accent {
+    color: #173ab8;
+}
+
+.bd {
+    /* border: 1px solid rgb(220, 220, 220); */
+    border-radius: 5px;
+}
+
+
+.main {
+    box-sizing: border-box;
+    height: 100%;
+
+    .lower,
+    header {
+        display: flex;
+    }
+
+
+    .left {
+        width: 70%;
+    }
+
+    .right {
+        width: 30%;
+    }
+}
+
+.grey {
+    color: #797979;
+    font-weight: 500;
+}
+
+
+h1 {
+    margin: 0;
+}
+
+h5 {
+    margin: 0;
+}
+
+h4 {
+    margin-bottom: 18px;
+}
+
+p {
+    font-size: 12px;
+    line-height: 1.4;
+    /* margin-bottom: 0; */
+
+}
+
+
+.subname {
+    margin: 0 0 55px 0;
+}
+
+.job_block{
+    margin-bottom: 40px;
+}
+
+.period {
+    font-size: 12px;
+}
+
+
+.job_place {
+    /* font-size: 14px; */
+    font-weight: bold;
+}
+
+.job_title {
+    margin: 0;
+    font-weight: 500;
+}
+
+
+.right_block {
+    margin-bottom: 40px;
+}
+
+
+
+.qr_holder {
+    display: flex;
+    flex-direction: row-reverse;
+    gap: 10px;
+    margin-top: 62px;
+
+    label {
+        font-size: 8px;
+        text-align: center;
+    }
+
+    img {
+        height: 100px;
+        margin-bottom: -5px;
+
+    }
+
+    .qrcode {
+        display: flex;
+        flex-direction: column;
+    }
+
+}
+
+
+
+* {
+    box-sizing: border-box;
+    -moz-box-sizing: border-box;
+}
+
+.page {
+    width: 210mm;
+    min-height: 297mm;
+    padding: 10mm;
+    margin: 10mm auto;
+    /* border: 1px #D3D3D3 solid;
+    border-radius: 5px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1); */
+
+    background: white;
+}
+
+.subpage {
+    /* border: 1px #f4f4f4 solid; */
+    /* border-radius: 5px; */
+    height: 277mm;
+}
+
+
+
+
+
+@page {
+    size: A4;
+    margin: 0;
+}
+
+@media print {
+
+    html,
+    body {
+        width: 210mm;
+        height: 297mm;
+    }
+
+    .page {
+        margin: 0;
+        border: initial;
+        border-radius: initial;
+        width: initial;
+        min-height: initial;
+        box-shadow: initial;
+        background: initial;
+        page-break-after: always;
+    }
+}
